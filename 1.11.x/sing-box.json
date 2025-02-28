@@ -643,20 +643,20 @@
         "http_proxy": {
           "enabled": true,
           "server": "127.0.0.1",
-          "server_port": 7890
+          "server_port": 5330
         }
       }
     },
     {
       "type": "mixed",
       "listen": "127.0.0.1",
-      "listen_port": 7890
+      "listen_port": 5330
     }
   ],
   "experimental": {
     "clash_api": {
-      "external_controller": "127.0.0.1:9090",
-      "external_ui": "ui",
+      "external_controller": "127.0.0.1:9095",
+      "external_ui": "/etc/sing-box/ui",
       "external_ui_download_url": "https://ghfast.top/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "direct"
     },
